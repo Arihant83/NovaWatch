@@ -26,12 +26,12 @@ The website provides information about the product, its features, benefits, cust
 
 ## Project Structure
 
-
-novawatch/
+```text
+novawatch
 ├── index.html
 ├── style.css
 └── README.md
-
+```
 ## How to Run the Project
 
 1. Download or copy the project files into a folder.
