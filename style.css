@@ -1,0 +1,163 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #222;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #7dd3fc;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 8%;
+    background-color: #f0f9ff;
+    gap: 30px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 38px;
+}
+
+.hero-text p {
+    line-height: 1.6;
+}
+
+button {
+    background-color: #0284c7;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0369a1;
+}
+
+.hero-image {
+    width: 45%;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#features {
+    padding: 40px 8%;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.feature-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+}
+
+.about {
+    background-color: #f0f9ff;
+    padding: 40px 8%;
+    text-align: center;
+}
+
+.about p {
+    line-height: 1.7;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* Benefits Section */
+.benefits {
+    padding: 40px 8%;
+    text-align: center;
+}
+
+.benefit-boxes {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.benefit {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f9ff;
+    border-radius: 8px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 40px 8%;
+    text-align: center;
+    background-color: #f3f4f6;
+}
+
+.review-boxes {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.review {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+
+.pricing {
+    padding: 45px 8%;
+    text-align: center;
+    background-color: #e0f2fe;
+}
+
+.pricing h3 {
+    font-size: 32px;
+    color: #0284c7;
+}
+
