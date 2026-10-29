@@ -27,7 +27,6 @@ The website provides information about the product, its features, benefits, cust
 ## Project Structure
 
 novawatch/
-|
 |-- index.html
 |-- style.css
 |-- README.md
